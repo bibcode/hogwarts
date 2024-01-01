@@ -19,3 +19,24 @@
   left: 0;
   right: 0;
 }
+
+/* Header */
+.main{
+  color: #bdb1b1;
+  background-color: #fff;
+  max-width: 1000px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel{ 
+  height: 350px;
+  position: relative;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
