@@ -11,8 +11,8 @@
   border-radius: 20px;
   position: absolute;
   margin: auto;
-  background: #fff;
-  width: 1200px;
+  background-color: #fff;
+  width: 1338px;
   height: 600px;
   top: 0;
   bottom: 0;
@@ -22,15 +22,15 @@
 
 /* Header */
 .main{
+  justify-content: center;
   color: #bdb1b1;
   background-color: #fff;
-  max-width: 1000px;
   margin: 30px;
   display: flex;
-  justify-content: space-between;
 }
 
 .carousel{ 
+  width: 900px;
   height: 350px;
   position: relative;
   margin: auto;
@@ -40,3 +40,28 @@
   right: 0;
 }
 
+p{
+position: fixed;
+color: rgba(0, 0, 0, 0.25);
+text-align: center;
+font-family: Familjen Grotesk;
+font-size: 18px;
+letter-spacing: 2.16px;
+bottom: 0;
+left: 0;
+right: 0;
+}
+h1{
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Germania One;
+font-size: 20px;
+line-height: 124.6%;
+letter-spacing: 3px
+}
+h2{
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Germania One;
+font-size: 25px;
+line-height: 124.6%; /* 31.15px */
+letter-spacing: 3px
+}

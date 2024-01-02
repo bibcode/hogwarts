@@ -2,8 +2,8 @@ import img from  './Image Carousel.png';
 
 const Home = () => {
     return (
-        <div className="home">
-            <img className='carousel' src={img} alt="img Carousel" />
+        <div className="home bg-white">
+            <img className='carousel bg-white' src={img} alt="img Carousel" />
         </div>
     );
 }
