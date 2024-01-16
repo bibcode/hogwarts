@@ -1,4 +1,5 @@
 import Home from "./home";
+import Info from "./info";
 import Navbar from "./navbar";
 
 function App() {
@@ -6,7 +7,10 @@ function App() {
     <div className="App">
       <div className="container">
         <Navbar/>
-          <Home/>
+        <div className="content flex justify-center">
+        <Home/>
+          <Info/>
+        </div>
       </div>
       <p className="footer">Copyright (c) 2024 Hogwarts International</p>
     </div>

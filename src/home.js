@@ -5,7 +5,7 @@ const Home = () => {
         <div className="home flex">
             <div className="img">
                 <img className='carousel' src={img} alt="img Carousel" />
-                <div className=" info bg-white rounded-lg flex">
+                <div className=" info bg-white rounded-2xl flex">
                     <div className='location flex'>
                         <div>
                             <h2>Location</h2>
@@ -24,8 +24,6 @@ const Home = () => {
                         <div>
                             <h2>Contact</h2>
                             <p className='text-gray-400'>Mon-Fri(8am-5pm)</p>
-                            
-
                             <p className='text-gray-400'>+234(0)7033556688</p>
                         </div>
                         <div className="mt-7 ml-10">
@@ -38,10 +36,6 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className="news">
-                hi
-            </div>
-
         </div>
     );
 }

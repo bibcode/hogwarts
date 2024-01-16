@@ -31,12 +31,10 @@ body{
 }
 
 .carousel{ 
-  padding-right: 50px;
   display: block;
-  border-right: 1px  #bdb1b1 solid;
   justify-content: left;
-  width: 680px;
-  height: 300px;
+  width: 600px;
+  height: 280px;
   position: relative;
   left: 35px;
 }
@@ -65,6 +63,7 @@ font-family: Germania One;
 font-size: 18px;
 line-height: 124.6%; /* 31.15px */
 letter-spacing: 3px
+
 }
 
 .info{
@@ -86,4 +85,16 @@ letter-spacing: 3px
 
 .contact{
   padding-left: 50px;
+}
+
+.home{
+  border-right: 1px  #000 solid;
+  padding-right: 50px;
+  border-collapse: separate;
+}
+
+.vision{
+  border-bottom: #000;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px 5px rgba(170, 159, 159, 0.25);
 }
