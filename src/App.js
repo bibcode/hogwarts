@@ -1,6 +1,7 @@
 import Home from "./home";
 import Info from "./info";
 import Navbar from "./navbar";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </div>
       </div>
       <p className="footer">Copyright (c) 2024 Hogwarts International</p>
+      <SpeedInsights />
     </div>
   );
 }
